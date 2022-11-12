@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ru.klim.test_task:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ru.klim.test_task</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ru.klim.test_task.war">
+      <element id="artifact" artifact-name="ru.klim.test_task:war exploded" />
+    </root>
+  </artifact>
+</component>
